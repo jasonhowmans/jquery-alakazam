@@ -1,8 +1,30 @@
 <!doctype html>
 <html>
-<head>
-</head>
-<body>
+	<head>
+		<meta charset="utf-8">
+		
+		<link rel="stylesheet" href="css/demo.css">
+	</head>
+	<body>
+		<ul id="slider">
+			<li class="features">
+				<h1>Something</h1>
+				<ul class="data">
+					<li>Another thing</li>
+					<li>Yet another thing</li>
+					<li>Annnnd another thing</li>
+				</ul>
+				<span class="block"></span>
+			</li>
+		</ul>
+		
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="../js/lib/jquery.slizzle.js"></script>
 
-</body>
+		<script>
+			$(function() {
+				$('body').slizzle();
+			});
+		</script>
+	</body>
 </html>
