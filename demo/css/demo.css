@@ -6,7 +6,8 @@ body {
 	padding: 0;
 }
 
-.now { opacity: 0.5 !important; }
+.hidden { opacity: 0.1 !important; }
+.in { opacity: 0.9 !important; }
 
 ul {
 	list-style: none;
