@@ -12,18 +12,32 @@
 				<ul class="data">
 					<li>Another thing</li>
 					<li>Yet another thing</li>
-					<li>Annnnd another thing</li>
+					<li>Aaaannnnd another thing</li>
 				</ul>
 				<span class="block"></span>
+			</li>
+			<li class="other">
+				<h1>Something else</h1>
+				<span class="circle"></span>
 			</li>
 		</ul>
 		
 		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-		<script src="../js/lib/jquery.slizzle.js"></script>
+		<script src="../lib/jquery.slizzle.js"></script>
 
 		<script>
 			$(function() {
-				$('body').slizzle();
+				$('#slider').alakazam({
+					'.features': {
+						'h1': 500,
+						'ul.data': 1000,
+						'span.block': 2000
+					},
+					'.other': {
+						'h1': 100,
+						'.circle': 400
+					}
+				});
 			});
 		</script>
 	</body>
