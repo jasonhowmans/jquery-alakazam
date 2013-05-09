@@ -1,6 +1,6 @@
 {
   "name": "jquery-alakazam",
-  "version": "0.9",
+  "version": "0.9.0",
   "main": "lib/jquery.alakazam.js",
   "dependencies": {
   	"jquery": "2.0"
